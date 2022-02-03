@@ -5,82 +5,557 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="/dist/index.css" rel="stylesheet" />
   </head>
-  <body class="bg-slate-100 dark:bg-slate-800">
-    <h1 class="my-component">Hello world!</h1>
-    <h2 class="text-primary">Hello</h2>
 
-    <div
-      class="absolute left-1/2 top-1/2 h-1/2 w-1/2 pointer-events-none -translate-y-1/2 -translate-x-1/2 block bg-indigo-500/60"
-    ></div>
+  <body class="prose p-5 bg-gray-300 max-w-6xl mx-auto bg-[#CACACA]">
+    <div class="grid lg:grid-cols-2 gap-10">
+      <div>
+        <img src="/img/kobenhavnerbilleder_aaben_venstre.jpg" alt="" />
+      </div>
+      <div class="max-w-md">
+        <h1 class="text-gray-800 flex justify-center lg:mt-20">
+          Københavnerbilleder - en guide til hipster foto
+        </h1>
+        <p class="text-center text-2xl">
+          <i>af Sten Simons</i>
+        </p>
+        <div class="flex justify-center mt-5">
+          <button
+            class="p-4 pl-10 pr-10 bg-zinc-700 text-zinc-400 text-lg rounded-xl uppercase font-semibold"
+          >
+            Køb nu
+          </button>
+        </div>
+      </div>
+    </div>
 
-    <div class="container mx-auto px-4 my-10 gap-10 grid grid-cols-2">
-      <article
-        class="prose prose-slate prose-headings:text-emerald-400 dark:prose-invert prose-a:text-secondary"
+    <div class="grid lg:grid-cols-2 max-w-4xl mx-auto gap-x-10">
+      <div>
+        <h2 class="lg:text-3xl md:text-2xl">Kort om bogen</h2>
+        <p>
+          Københavnerbilleder er de danske streetfotografers bibel: det er en
+          fusion mellem et kunstværk og en lærebog.
+          <br />
+          <br />
+          Bogen gennemgår alle væsentlige aspekter af streetfotografering fra
+          grundlæggende teknik til kreative eksperimenter. Alt sammen krydret
+          med masser af inspirerende fotos. God læselyst!
+        </p>
+      </div>
+      <div>
+        <h2 class="lg:text-3xl md:text-2xl">Detaljer/fakta om bogen</h2>
+        <ul class="list-none m-0 p-0">
+          <li class="p-0">
+            <b>Titel:</b> Københavnerbilleder - en guide til hipster foto
+          </li>
+          <li class="p-0"><b>Forfatter:</b> Sten Simons</li>
+          <li class="p-0"><b>Antal sider:</b> 344</li>
+          <li class="p-0"><b>Forlag:</b> Mellem Linjerne</li>
+          <li class="p-0"><b>ISBN:</b> 987-6-987654-32-1</li>
+          <li class="p-0"><b>Pris:</b> 399,- DKK</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="grid lg:grid-cols-3 lg:mt-10 gap-x-7">
+      <img src="/img/kobenhavnerbilleder-sten-simons.jpg" alt="" />
+      <img src="/img/kobenhavnerbilleder_oppefra.jpg" alt="" />
+      <img src="/img/kobenhavnerbilleder_aaben_venstre.jpg" alt="" />
+    </div>
+
+    <div class="max-w-4xl mx-auto">
+      <h2 class="lg:text-3xl md:text-2xl">Bogens kapitler</h2>
+      <div class="grid lg:grid-cols-2 gap-x-10">
+        <div>
+          <h3 class="mt-0">Kapitel 1 - Intro til street foto</h3>
+          <p>
+            Hvad er street foto? Det handler i bund og grund om at skyde byens
+            liv og byens geometri (urban geometry).
+            <br />
+            <br />
+            I dette kapitel får du en grundig intro til hvad street foto er og
+            et overblik over nogen af de kendte street-fotografer. Alt krydret
+            med en masse gode eksempler på street fotos.
+          </p>
+        </div>
+        <div>
+          <h3 class="mt-0">Kapitel 2 - Om at skyde street</h3>
+          <p>
+            Vil du skyde street? Så er der ikke nogen vej udenom: Du skal ud på
+            gaderne og prøve det!
+            <br />
+            <br />
+            I dette kapitel får du en teknisk indføring i hvordan du bedst
+            skyder street. Uanset om du er begynder eller professionel, er der
+            mange gode tekniske tips og tricks til street-skyderiet.
+          </p>
+        </div>
+        <div>
+          <h3>Kapitel 3 - Om at finde det rette motiv</h3>
+          <p>
+            Indimellem er man heldig, andre gange kommer man hjem helt uden gode
+            motiver. Med et par tips og tricks til at finde de rette motiver,
+            stiger chancen gevaldigt for at fange de gode motiver.
+          </p>
+        </div>
+        <div>
+          <h3>Kapitel 4 - Digital street foto</h3>
+          <p>
+            De fleste af os skyder oftest digitalt fordi det er billigere og
+            nemmere. Og nogen teknikker og fremgangsmåder egner sig kun til
+            digital street foto.
+            <br />
+            <br />
+            I dette kapitel får du en række tips og tricks til digital
+            street-foto.
+          </p>
+        </div>
+        <div>
+          <h3>Kapitel 5 - Analog street foto</h3>
+          <p>
+            Analog er sejt fordi det er mere “ægte,” dyrere og mere besværligt
+            end digital. Det signalerer entusiasme. Nogle teknikker og
+            fremgangsmåder egner sig bedst til analog street foto.
+            <br />
+            <br />
+            I dette kapitel får du en række tips og tricks til analog
+            street-foto.
+          </p>
+        </div>
+        <div>
+          <h3>Kapitel 6 - Om at skyde sort/hvid</h3>
+          <p>
+            Alle street-fotografer skyder sort/hvid nu og da. Nogen altid.
+            Hvorfor? Hvad er der specielt ved sort/hvid fotografering, og hvad
+            adskiller sort/hvid fra farvefotografering?
+            <br />
+            <br />
+            Her får du en række tips og tricks til sort/hvid fotografering.
+          </p>
+        </div>
+        <div>
+          <h3>Kapitel 7 - Kreative teknikker</h3>
+          <p>
+            Dobbelteksponeringer, ICM (intentional camera moves), smadrede
+            objektiver, gamle filmruller og alle mulige andre, spændende
+            kreative teknikker kan løfte dine fotografier fra at være kedelige
+            dokumentationer af hverdagen til at blive vilde kunststykker.
+            <br />
+            <br />
+            Så dyk ned i dette kapitel om eksperimenterende teknikker!
+          </p>
+        </div>
+        <div>
+          <h3>Kapitel 8 - Kom helt tæt på!</h3>
+          <p>
+            Street foto handler om at fotografere livet på gaden - men tør du at
+            gå helt tæt på fremmede mennesker og knipse løs?
+            <br />
+            <br />
+            Du kan lige så godt øve dig, for det er det der vil gøre dig til en
+            bedre street-fotograf…
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="mx-auto lg:mt-10 lg:mb-10">
+      <h2 class="lg:text-3xl md:text-2xl mb-10">Anmeldelser af bogen</h2>
+      <div class="grid lg:grid-cols-3 gap-x-10">
+        <div>
+          <div class="flex flex-row">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              aria-hidden="true"
+              role="img"
+              class="iconify iconify--ic"
+              width="32"
+              height="32"
+              preserveAspectRatio="xMidYMid meet"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21L12 17.27z"
+                fill="currentColor"
+              ></path>
+            </svg>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              aria-hidden="true"
+              role="img"
+              class="iconify iconify--ic"
+              width="32"
+              height="32"
+              preserveAspectRatio="xMidYMid meet"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21L12 17.27z"
+                fill="currentColor"
+              ></path>
+            </svg>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              aria-hidden="true"
+              role="img"
+              class="iconify iconify--ic"
+              width="32"
+              height="32"
+              preserveAspectRatio="xMidYMid meet"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21L12 17.27z"
+                fill="currentColor"
+              ></path>
+            </svg>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              aria-hidden="true"
+              role="img"
+              class="iconify iconify--ic"
+              width="32"
+              height="32"
+              preserveAspectRatio="xMidYMid meet"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21L12 17.27z"
+                fill="currentColor"
+              ></path>
+            </svg>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              aria-hidden="true"
+              role="img"
+              class="iconify iconify--ic"
+              width="32"
+              height="32"
+              preserveAspectRatio="xMidYMid meet"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21L12 17.27z"
+                fill="currentColor"
+              ></path>
+            </svg>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              aria-hidden="true"
+              role="img"
+              class="iconify iconify--ic"
+              width="32"
+              height="32"
+              preserveAspectRatio="xMidYMid meet"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M22 9.24l-7.19-.62L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21L12 17.27L18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27l1-4.28l-3.32-2.88l4.38-.38L12 6.1l1.71 4.04l4.38.38l-3.32 2.88l1 4.28L12 15.4z"
+                fill="currentColor"
+              ></path>
+            </svg>
+          </div>
+          <p class="font-semibold">5 af 6 stjerner</p>
+          <p>
+            Københavnerbilleder er en grundig introduktion til at skyde billeder
+            med retro-kant. Hvad enten du er har arbejdet med foto siden
+            135-filmen kom på markedet, du kun har skudt digitalt eller er helt
+            nybegynder, er der masser af tips og tricks i bogen.
+          </p>
+          <p class="font-semibold"><i>Hanne Hovgaard, Berlingeren</i></p>
+        </div>
+        <div>
+          <div class="flex flex-row">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              aria-hidden="true"
+              role="img"
+              class="iconify iconify--ic"
+              width="32"
+              height="32"
+              preserveAspectRatio="xMidYMid meet"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21L12 17.27z"
+                fill="currentColor"
+              ></path>
+            </svg>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              aria-hidden="true"
+              role="img"
+              class="iconify iconify--ic"
+              width="32"
+              height="32"
+              preserveAspectRatio="xMidYMid meet"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21L12 17.27z"
+                fill="currentColor"
+              ></path>
+            </svg>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              aria-hidden="true"
+              role="img"
+              class="iconify iconify--ic"
+              width="32"
+              height="32"
+              preserveAspectRatio="xMidYMid meet"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21L12 17.27z"
+                fill="currentColor"
+              ></path>
+            </svg>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              aria-hidden="true"
+              role="img"
+              class="iconify iconify--ic"
+              width="32"
+              height="32"
+              preserveAspectRatio="xMidYMid meet"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21L12 17.27z"
+                fill="currentColor"
+              ></path>
+            </svg>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              aria-hidden="true"
+              role="img"
+              class="iconify iconify--ic"
+              width="32"
+              height="32"
+              preserveAspectRatio="xMidYMid meet"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M22 9.24l-7.19-.62L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21L12 17.27L18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27l1-4.28l-3.32-2.88l4.38-.38L12 6.1l1.71 4.04l4.38.38l-3.32 2.88l1 4.28L12 15.4z"
+                fill="currentColor"
+              ></path>
+            </svg>
+          </div>
+          <p class="font-semibold">4 af 5 stjerner</p>
+          <p>
+            Teksten er underholdende, og billederne er sku’ flotte. Hvad mere
+            skal man sige om en fotobog?
+          </p>
+          <p class="font-semibold"><i>Kim Kloggaard, Fotojournalen.dk</i></p>
+        </div>
+        <div>
+          <div class="flex flex-row">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              aria-hidden="true"
+              role="img"
+              class="iconify iconify--ic"
+              width="32"
+              height="32"
+              preserveAspectRatio="xMidYMid meet"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21L12 17.27z"
+                fill="currentColor"
+              ></path>
+            </svg>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              aria-hidden="true"
+              role="img"
+              class="iconify iconify--ic"
+              width="32"
+              height="32"
+              preserveAspectRatio="xMidYMid meet"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21L12 17.27z"
+                fill="currentColor"
+              ></path>
+            </svg>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              aria-hidden="true"
+              role="img"
+              class="iconify iconify--ic"
+              width="32"
+              height="32"
+              preserveAspectRatio="xMidYMid meet"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21L12 17.27z"
+                fill="currentColor"
+              ></path>
+            </svg>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              aria-hidden="true"
+              role="img"
+              class="iconify iconify--ic"
+              width="32"
+              height="32"
+              preserveAspectRatio="xMidYMid meet"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21L12 17.27z"
+                fill="currentColor"
+              ></path>
+            </svg>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              aria-hidden="true"
+              role="img"
+              class="iconify iconify--ic"
+              width="32"
+              height="32"
+              preserveAspectRatio="xMidYMid meet"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21L12 17.27z"
+                fill="currentColor"
+              ></path>
+            </svg>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              aria-hidden="true"
+              role="img"
+              class="iconify iconify--ic"
+              width="32"
+              height="32"
+              preserveAspectRatio="xMidYMid meet"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21L12 17.27z"
+                fill="currentColor"
+              ></path>
+            </svg>
+          </div>
+          <p class="font-semibold">6 af 6 stjerner</p>
+          <p>
+            Sten Simons kan det der - og han bliver bedre og bedre. Stens tredje
+            fotobog er klart den bedste - her er han for alvor i sit rette
+            element, meget bedre end “studiefotografering som begyndere.”.
+            <br />
+            <br />
+            Tillykke - godt arbejde.
+          </p>
+          <p class="font-semibold"><i>Volmer Hansen, Lukkertiden.dk</i></p>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <h2 class="lg:text-3xl md:text-2xl">Billeder fra bogen</h2>
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-7">
+        <img
+          class="mt-0 mb-0"
+          src="/img/orestad-til-islands-brygge-pentax-auto-110-16.jpg"
+          alt=""
+        />
+        <img class="mt-0 mb-0" src="/img/lomo-smena-15.jpg" alt="" />
+        <img
+          class="mt-0 mb-0"
+          src="/img/nikkormat-ft2-orestad-c-6.jpg"
+          alt=""
+        />
+
+        <img class="mt-0 mb-0" src="/img/_6090022.jpeg" alt="" />
+        <img
+          class="mt-0 mb-0"
+          src="/img/agfa-genanvendeligt-kamera-35mm-film-2-5.jpg"
+          alt=""
+        />
+        <img
+          class="mt-0 mb-0"
+          src="/img/orestad-til-islands-brygge-pentax-auto-110-14.jpg"
+          alt=""
+        />
+
+        <img
+          class="mt-0 mb-0"
+          src="/img/agfa-genanvendeligt-kamera-35mm-5.jpg"
+          alt=""
+        />
+        <img
+          class="mt-0 mb-0"
+          src="/img/nikkormat-ft2-remiseparken-7.jpg"
+          alt=""
+        />
+        <img class="mt-0 mb-0" src="/img/lomo-smena-20.jpg" alt="" />
+      </div>
+    </div>
+
+    <div class="max-w-4xl mx-auto">
+      <h2 class="lg:text-3xl md:text-2xl">Forfatteren</h2>
+      <div class="grid lg:grid-cols-2 gap-x-10">
+        <div class="rounded-full">
+          <img
+            class="mt-0 mb-1"
+            src="/img/sten_simons.jpg"
+            alt="Foto af forfatteren"
+          />
+          <p class="text-center mt-0"><i>Foto af forfatteren</i></p>
+        </div>
+        <div>
+          <p class="mt-0">
+            Sten Simons har en lang foto-karriere bag sig. Det hele startede i
+            00’erne, da han gik rundt i Pisserenden for at fotografere
+            ungdommens forfald. Det ledte til en række udstillinger, og blev
+            senere til hans først fotobog “Ungdomsdruk - pinlige billeder fra
+            nattelivet”.
+            <br />
+            <br />
+            Derefter tog karrieren fart: Han blev fotojournalist og
+            dokumenterede en masse dagligdagsstof fra Amager på dagbladet
+            “Amagerkaneren”.
+            <br />
+            <br />
+            Sideløbende begyndte han at undervise i foto, og har skrevet et utal
+            af bøger, herunder bestsellerne Scener fra S-toget, Brun mad - en
+            visuel odysse, og lærebogen Fotografering for evnesvage.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="flex justify-center">
+      <button
+        class="p-5 pl-10 pr-10 bg-zinc-700 text-zinc-400 text-2xl rounded-xl uppercase font-semibold"
       >
-        <h2>Heading level 2</h2>
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium
-          perferendis rem quos aspernatur eos maiores cupiditate nesciunt
-          voluptatibus sit maxime nam, voluptates fugiat exercitationem ratione
-          nulla rerum laboriosam enim labore? <a href="#0">Watch movie here</a>
-        </p>
-        <p>
-          Rem omnis voluptas, soluta odit nisi deleniti optio ipsum quia
-          laudantium exercitationem, ad eum, incidunt itaque ratione
-          reprehenderit cupiditate neque sit vitae quis at dolorem. Delectus
-          cupiditate molestiae veritatis cum.
-        </p>
-        <blockquote>
-          <p>Hello</p>
-          <footer>- <cite>me</cite></footer>
-        </blockquote>
-        <p>
-          Omnis ad laudantium vitae minima, voluptate commodi reiciendis
-          pariatur maxime suscipit odio ea culpa at magnam placeat. Unde iste,
-          sed officia quo quam, inventore autem molestiae sequi nesciunt nobis
-          facilis?
-        </p>
-      </article>
-
-      <article
-        class="prose prose-slate prose-headings:text-emerald-400 dark:prose-invert prose-a:text-secondary"
-      >
-        <h2>Heading level 2</h2>
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium
-          perferendis rem quos aspernatur eos maiores cupiditate nesciunt
-          voluptatibus sit maxime nam, voluptates fugiat exercitationem ratione
-          nulla rerum laboriosam enim labore? <a href="#0">Watch movie here</a>
-        </p>
-        <p>
-          Rem omnis voluptas, soluta odit nisi deleniti optio ipsum quia
-          laudantium exercitationem, ad eum, incidunt itaque ratione
-          reprehenderit cupiditate neque sit vitae quis at dolorem. Delectus
-          cupiditate molestiae veritatis cum.
-        </p>
-        <blockquote>
-          <p>Hello</p>
-          <footer>- <cite>me</cite></footer>
-        </blockquote>
-        <p>
-          Omnis ad laudantium vitae minima, voluptate commodi reiciendis
-          pariatur maxime suscipit odio ea culpa at magnam placeat. Unde iste,
-          sed officia quo quam, inventore autem molestiae sequi nesciunt nobis
-          facilis?
-        </p>
-      </article>
+        Køb nu
+      </button>
     </div>
 
-    <div class="py-10 mx-auto">
-      <p>...</p>
-    </div>
-
-    <div class="py-10 mx-auto">
-      <p>...</p>
-    </div>
-
-    <div class="py-10 mx-auto">
-      <p>...</p>
-    </div>
+    <footer class="text-center text-xs mt-5">
+      <p>© Copyright 2022</p>
+    </footer>
   </body>
 </html>
