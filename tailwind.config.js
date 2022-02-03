@@ -9,7 +9,7 @@ module.exports = {
       h3: "#325288",
       p: "#5a5a5a",
       button: "#F5CEBE",
-      shadow: "#000000",
+      hover: "#FEDDCF",
     },
     fontFamily: {
       caveat: "'Caveat', system-ui, sans-serif",
