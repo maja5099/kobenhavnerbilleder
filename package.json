@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "npx tailwindcss -i ./src/index.css -o ./dist/index.css --watch",
-    "build": "rm -rf dist/ && npx parcel build --public-url ./"
+    "dev": "npx tailwindcss -i ./src/index.css -o ./src/index-ny.css --watch"
   },
   "keywords": [],
   "author": "",
