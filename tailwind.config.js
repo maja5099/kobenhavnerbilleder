@@ -6,17 +6,11 @@ module.exports = {
   theme: {
     colors: {
       background: "#CDCDCD",
-      h2: "#114E60",
-      h3: "#325288",
-      p: "#5a5a5a",
-      button: "#F5CEBE",
-      hover: "#FEDDCF",
-      dark: "#565656",
       color_1: "#D4ECDD",
       color_2: "#345B63",
-      color_3: "#152D35",
-      color_4: "#112031",
-      color_hover: "#4a818c",
+      color_3: "#233E43",
+      dark_hover: "#467b86",
+      light_hover: "#e6f4ec",
     },
     fontFamily: {
       bebas: "'Bebas Neue', system-ui, cursive",

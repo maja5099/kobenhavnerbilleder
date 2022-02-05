@@ -905,8 +905,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-top: 1.25rem;
 }
 
-.mb-5 {
-  margin-bottom: 1.25rem;
+.mt-10 {
+  margin-top: 2.5rem;
+}
+
+.mb-10 {
+  margin-bottom: 2.5rem;
 }
 
 .mt-20 {
@@ -917,16 +921,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-top: 0px;
 }
 
-.mb-10 {
-  margin-bottom: 2.5rem;
+.mb-5 {
+  margin-bottom: 1.25rem;
 }
 
 .mt-2 {
   margin-top: 0.5rem;
-}
-
-.mt-10 {
-  margin-top: 2.5rem;
 }
 
 .mb-1 {
@@ -955,6 +955,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .max-w-6xl {
   max-width: 72rem;
+}
+
+.max-w-lg {
+  max-width: 32rem;
 }
 
 .max-w-md {
@@ -1023,6 +1027,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-radius: 9999px;
 }
 
+.border-color_2 {
+  --tw-border-opacity: 1;
+  border-color: rgb(52 91 99 / var(--tw-border-opacity));
+}
+
 .bg-color_1 {
   --tw-bg-opacity: 1;
   background-color: rgb(212 236 221 / var(--tw-bg-opacity));
@@ -1038,11 +1047,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(52 91 99 / var(--tw-bg-opacity));
 }
 
-.bg-button {
-  --tw-bg-opacity: 1;
-  background-color: rgb(245 206 190 / var(--tw-bg-opacity));
-}
-
 .p-5 {
   padding: 1.25rem;
 }
@@ -1051,8 +1055,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding: 0.75rem;
 }
 
-.p-1 {
-  padding: 0.25rem;
+.p-2 {
+  padding: 0.5rem;
 }
 
 .p-4 {
@@ -1067,12 +1071,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding: 1.75rem;
 }
 
-.pl-4 {
-  padding-left: 1rem;
+.pl-5 {
+  padding-left: 1.25rem;
 }
 
-.pr-4 {
-  padding-right: 1rem;
+.pr-5 {
+  padding-right: 1.25rem;
 }
 
 .pl-10 {
@@ -1093,6 +1097,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .font-bebas {
   font-family: 'Bebas Neue', system-ui, cursive;
+}
+
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
 }
 
 .text-2xl {
@@ -1123,14 +1132,9 @@ Ensure the default browser behavior of the `hidden` attribute.
   color: rgb(212 236 221 / var(--tw-text-opacity));
 }
 
-.text-color_4 {
-  --tw-text-opacity: 1;
-  color: rgb(17 32 49 / var(--tw-text-opacity));
-}
-
 .text-color_3 {
   --tw-text-opacity: 1;
-  color: rgb(21 45 53 / var(--tw-text-opacity));
+  color: rgb(35 62 67 / var(--tw-text-opacity));
 }
 
 .text-color_2 {
@@ -1138,56 +1142,23 @@ Ensure the default browser behavior of the `hidden` attribute.
   color: rgb(52 91 99 / var(--tw-text-opacity));
 }
 
-.text-p {
-  --tw-text-opacity: 1;
-  color: rgb(90 90 90 / var(--tw-text-opacity));
-}
-
-.no-underline {
-  -webkit-text-decoration-line: none;
-          text-decoration-line: none;
-}
-
-.hover\:bg-color_hover:hover {
+.hover\:bg-dark_hover:hover {
   --tw-bg-opacity: 1;
-  background-color: rgb(74 129 140 / var(--tw-bg-opacity));
+  background-color: rgb(70 123 134 / var(--tw-bg-opacity));
 }
 
-.hover\:bg-hover:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(254 221 207 / var(--tw-bg-opacity));
-}
-
-.hover\:underline:hover {
-  -webkit-text-decoration-line: underline;
-          text-decoration-line: underline;
-}
-
-.dark .dark\:text-color_4 {
+.dark .dark\:text-color_2 {
   --tw-text-opacity: 1;
-  color: rgb(17 32 49 / var(--tw-text-opacity));
+  color: rgb(52 91 99 / var(--tw-text-opacity));
 }
 
 @media (min-width: 768px) {
-  .md\:mt-5 {
-    margin-top: 1.25rem;
-  }
-
   .md\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .md\:p-5 {
     padding: 1.25rem;
-  }
-
-  .md\:p-0 {
-    padding: 0px;
-  }
-
-  .md\:text-3xl {
-    font-size: 1.875rem;
-    line-height: 2.25rem;
   }
 
   .md\:text-2xl {
@@ -1201,12 +1172,12 @@ Ensure the default browser behavior of the `hidden` attribute.
     margin-top: 5rem;
   }
 
-  .lg\:mt-10 {
-    margin-top: 2.5rem;
-  }
-
   .lg\:mb-10 {
     margin-bottom: 2.5rem;
+  }
+
+  .lg\:mt-10 {
+    margin-top: 2.5rem;
   }
 
   .lg\:grid-cols-2 {
@@ -1217,21 +1188,16 @@ Ensure the default browser behavior of the `hidden` attribute.
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
+  .lg\:rounded-lg {
+    border-radius: 0.5rem;
+  }
+
   .lg\:p-10 {
     padding: 2.5rem;
   }
 
-  .lg\:p-20 {
-    padding: 5rem;
-  }
-
   .lg\:text-right {
     text-align: right;
-  }
-
-  .lg\:text-5xl {
-    font-size: 3rem;
-    line-height: 1;
   }
 
   .lg\:text-lg {
