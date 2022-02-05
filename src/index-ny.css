@@ -1027,6 +1027,18 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-radius: 9999px;
 }
 
+.border {
+  border-width: 1px;
+}
+
+.border-2 {
+  border-width: 2px;
+}
+
+.border-4 {
+  border-width: 4px;
+}
+
 .border-color_2 {
   --tw-border-opacity: 1;
   border-color: rgb(52 91 99 / var(--tw-border-opacity));
@@ -1147,14 +1159,43 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(70 123 134 / var(--tw-bg-opacity));
 }
 
+.dark .dark\:border-color_1 {
+  --tw-border-opacity: 1;
+  border-color: rgb(212 236 221 / var(--tw-border-opacity));
+}
+
+.dark .dark\:bg-color_2 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(52 91 99 / var(--tw-bg-opacity));
+}
+
+.dark .dark\:bg-color_1 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(212 236 221 / var(--tw-bg-opacity));
+}
+
 .dark .dark\:text-color_2 {
   --tw-text-opacity: 1;
   color: rgb(52 91 99 / var(--tw-text-opacity));
 }
 
+.dark .dark\:text-color_1 {
+  --tw-text-opacity: 1;
+  color: rgb(212 236 221 / var(--tw-text-opacity));
+}
+
+.dark .dark\:hover\:bg-light_hover:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(230 244 236 / var(--tw-bg-opacity));
+}
+
 @media (min-width: 768px) {
   .md\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .md\:border-2 {
+    border-width: 2px;
   }
 
   .md\:p-5 {
@@ -1190,6 +1231,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .lg\:rounded-lg {
     border-radius: 0.5rem;
+  }
+
+  .lg\:border-4 {
+    border-width: 4px;
   }
 
   .lg\:p-10 {
